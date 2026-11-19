@@ -27,7 +27,7 @@ export default function Account() {
     user = null;
   }
 
-  const initials = (user?.name || "Fresh Cart")
+  const initials = (user?.name || "Mart Cart")
     .split(" ")
     .map((part) => part[0])
     .slice(0, 2)

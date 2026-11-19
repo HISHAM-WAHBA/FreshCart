@@ -208,7 +208,7 @@ export default function Navbar() {
           <nav className="flex items-center justify-between py-5 gap-2">
             <div className="flex items-center">
               <Link to="/" aria-label="MartCart home">
-                <img src={Logo} className="w-40" alt="martCart logo" />
+                <img src={Logo} className="w-40" alt="MartCart logo" />
               </Link>
             </div>
 

@@ -106,7 +106,7 @@ export default function Login() {
           <div className="leftSide lg:px-0  space-y-8 flex flex-col justify-center">
             <img
               src={Loginimg}
-              alt="Freshcart"
+              alt="MartCart"
               className="w-full max-w-xs sm:max-w-md md:max-w-lg shadow-xl rounded-2xl mx-auto"
             />
 
