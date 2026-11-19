@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import { ToastContainer } from "react-toastify";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import Layout from "./Components/Layout/Layout";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
@@ -177,7 +176,6 @@ function App() {
           </WishListProvider>
         </AuthProvider>
       </OffLineScreen>
-      {import.meta.env.DEV && <ReactQueryDevtools />}
     </QueryClientProvider>
   );
 }
