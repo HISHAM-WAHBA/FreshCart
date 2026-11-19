@@ -100,7 +100,7 @@ export default function Login() {
 
   return (
     <>
-      <PageMetaData title="Login Page | FreshCart" />
+      <PageMetaData title="Login Page | MartCart" />
       <main className="py-12 overflow-x-hidden">
         <div className="container grid lg:grid-cols-2 lg:gap-12 gap-6  ">
           <div className="leftSide lg:px-0  space-y-8 flex flex-col justify-center">
@@ -112,10 +112,10 @@ export default function Login() {
 
             <div className="loginMessage text-center">
               <h2 className="lg:text-2xl text-xl  font-bold">
-                FreshCart-Your One-Stop Shop for Fresh Products
+                MartCart-Your One-Stop Shop for Fresh Products
               </h2>
               <p className="lg:text-lg text-base mt-2 text-gray-600 ">
-                Join thousands of happy customers <br /> who trust FreshCart For
+                Join thousands of happy customers <br /> who trust MartCart For
                 their daily grocery needs
               </p>
             </div>
@@ -183,7 +183,7 @@ export default function Login() {
                   />
 
                   <input
-                    className="form-control ps-10 pe-10 sm:ps-12 sm:pe-12 py-2 outline-0 border rounded-md border-gray-400/40 focus:border-green-500 focus:outline-none w-full"
+                    className="form-control ps-10 pe-10 sm:ps-12 sm:pe-12 py-2 outline-0 border rounded-md border-gray-400/40 focus:border-primary-500 focus:outline-none w-full"
                     type="email"
                     id="email"
                     name="email"
@@ -206,7 +206,7 @@ export default function Login() {
                   <label htmlFor="password">Password</label>
                   <Link
                     to="/ForgetPassword"
-                    className="text-green-500 text-sm hover:underline"
+                    className="text-primary-500 text-sm hover:underline"
                   >
                     Forget password?
                   </Link>
@@ -235,7 +235,7 @@ export default function Login() {
                   </button>
 
                   <input
-                    className="form-control ps-10 pe-10 sm:ps-12 sm:pe-12 py-2 outline-0 border rounded-md border-gray-400/40 focus:border-green-500 focus:outline-none w-full"
+                    className="form-control ps-10 pe-10 sm:ps-12 sm:pe-12 py-2 outline-0 border rounded-md border-gray-400/40 focus:border-primary-500 focus:outline-none w-full"
                     type={isPassWordShown ? "text" : "password"}
                     id="password"
                     name="password"
@@ -262,7 +262,7 @@ export default function Login() {
                     type="checkbox"
                     name="rememberMe"
                     id="rememberMe"
-                    className="accent-green-600 size-4"
+                    className="accent-primary-600 size-4"
                     value={formik.values.rememberMe}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
@@ -272,15 +272,15 @@ export default function Login() {
                 </div>
               </div>
               <button
-                className="btn flex items-center gap-2 w-full justify-center bg-green-600 hover:bg-green-700 text-white"
+                className="btn flex items-center gap-2 w-full justify-center bg-primary-600 hover:bg-primary-700 text-white"
                 type="submit"
               >
                 <span>Sign In</span>
               </button>
             </form>
             <p className="text-center pt-8 border-t border-gray-300/50">
-              New to FreshCart?{" "}
-              <Link className="text-green-500 " to={`/SignUp`}>
+              New to MartCart?{" "}
+              <Link className="text-primary-500 " to={`/SignUp`}>
                 Create an account
               </Link>
             </p>

@@ -51,7 +51,7 @@ export default function Orders() {
       label: "Delivered",
       value: delivered,
       icon: faCheckCircle,
-      tone: "bg-emerald-50 text-emerald-600",
+      tone: "bg-primary-50 text-primary-600",
     },
     {
       label: "Pending",
@@ -70,8 +70,8 @@ export default function Orders() {
   return (
     <>
       <PageMetaData
-        title="My Orders | FreshCart"
-        description="Track and review every order you've placed with FreshCart."
+        title="My Orders | MartCart"
+        description="Track and review every order you've placed with MartCart."
       />
 
       <main className="page-enter py-8 md:py-12 min-h-[70vh]">
@@ -166,7 +166,7 @@ export default function Orders() {
                         <span
                           className={`chip ${
                             order.isPaid
-                              ? "bg-emerald-50 text-emerald-700"
+                              ? "bg-primary-50 text-primary-700"
                               : "bg-amber-50 text-amber-700"
                           }`}
                         >

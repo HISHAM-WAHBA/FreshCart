@@ -84,7 +84,7 @@ export default function WishList() {
                     <input
                       type="text"
                       placeholder="e.g., Holiday Shopping"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
                     />
                   </div>
 
@@ -95,7 +95,7 @@ export default function WishList() {
                         <input
                           type="radio"
                           name="privacy"
-                          className="accent-green-500"
+                          className="accent-primary-500"
                         />
                         <FontAwesomeIcon icon={faGlobe} />
                         Public
@@ -104,7 +104,7 @@ export default function WishList() {
                         <input
                           type="radio"
                           name="privacy"
-                          className="accent-green-500"
+                          className="accent-primary-500"
                         />
                         <FontAwesomeIcon icon={faLock} />
                         Private
@@ -112,7 +112,7 @@ export default function WishList() {
                     </div>
                   </div>
 
-                  <button className="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-md font-medium transition">
+                  <button className="w-full bg-primary-500 hover:bg-primary-600 text-white py-2 rounded-md font-medium transition">
                     Create Wishlist
                   </button>
                 </div>
@@ -140,7 +140,7 @@ export default function WishList() {
                           </div>
                           <a
                             href="#"
-                            className="text-green-600 font-medium hover:underline text-sm"
+                            className="text-primary-600 font-medium hover:underline text-sm"
                           >
                             View
                           </a>
@@ -175,7 +175,7 @@ export default function WishList() {
                   <div className="flex items-center border border-gray-300 rounded-md overflow-hidden">
                     <input
                       type="text"
-                      value="https://freshcart.com/wishlist"
+                      value="https://martcart.com/wishlist"
                       readOnly
                       className="flex-1 px-3 py-2 text-sm bg-gray-100 text-gray-700"
                     />

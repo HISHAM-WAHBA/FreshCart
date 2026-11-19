@@ -53,7 +53,7 @@ export default function WishListItem({ productInfo }) {
           <div className="flex items-center gap-2 font-semibold text-primary-600 text-center sm:text-start">
             {priceAfterDiscount ? (
               <>
-                <span className="text-green-600">{priceAfterDiscount} EGP</span>
+                <span className="text-primary-600">{priceAfterDiscount} EGP</span>
                 <del className="text-sm text-gray-500">{price} EGP</del>
               </>
             ) : (

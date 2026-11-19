@@ -5,7 +5,7 @@ export default function Terms() {
     <StaticPage
       eyebrow="Legal"
       title="Terms of Service"
-      lead="Please read these terms carefully before using FreshCart. By placing an order, you agree to the following."
+      lead="Please read these terms carefully before using MartCart. By placing an order, you agree to the following."
       sections={[
         {
           heading: "1. Using our store",

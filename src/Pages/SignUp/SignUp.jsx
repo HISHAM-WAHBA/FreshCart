@@ -85,13 +85,13 @@ export default function SignUp() {
 
   return (
     <>
-      <PageMetaData title="Sign Up Page | FreshCart" />
+      <PageMetaData title="Sign Up Page | MartCart" />
       <main className="py-12 overflow-x-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-6 lg:gap-12">
           <div className="leftSide lg:px-0 px-10 space-y-8">
             <div className="welcomeMessage">
               <h2 className="lg:text-4xl text-2xl  font-bold">
-                Welcome to <span className="text-green-500">FreshCart</span>
+                Welcome to <span className="text-primary-500">MartCart</span>
               </h2>
               <p className="lg:text-lg text-base mt-2">
                 Join thousands of happy customers who enjoy fresh groceries
@@ -100,7 +100,7 @@ export default function SignUp() {
             </div>
             <ul className="*:flex *:items-center *:gap-3 space-y-5">
               <li>
-                <div className="icon size-12 rounded-full bg-green-400 text-xl flex items-center justify-center text-green-700 shrink-0">
+                <div className="icon size-12 rounded-full bg-primary-400 text-xl flex items-center justify-center text-primary-700 shrink-0">
                   <FontAwesomeIcon icon={faStar} />
                 </div>
                 <div className="content">
@@ -111,7 +111,7 @@ export default function SignUp() {
                 </div>
               </li>
               <li>
-                <div className="icon size-12 rounded-full bg-green-400 text-base flex items-center justify-center text-green-700 shrink-0">
+                <div className="icon size-12 rounded-full bg-primary-400 text-base flex items-center justify-center text-primary-700 shrink-0">
                   <FontAwesomeIcon icon={faTruckFast} />
                 </div>
                 <div className="content">
@@ -122,7 +122,7 @@ export default function SignUp() {
                 </div>
               </li>
               <li>
-                <div className="icon size-12 rounded-full bg-green-400 text-xl flex items-center justify-center text-green-700 shrink-0">
+                <div className="icon size-12 rounded-full bg-primary-400 text-xl flex items-center justify-center text-primary-700 shrink-0">
                   <FontAwesomeIcon icon={faShieldHalved} />
                 </div>
                 <div className="content">
@@ -168,7 +168,7 @@ export default function SignUp() {
               </div>
               <blockquote className="text-gray-700 italic mt-4">
                 <p>
-                  "FreshCart has transformed my shopping experience. The quality
+                  "MartCart has transformed my shopping experience. The quality
                   of the products is outstanding , and the delivery is always on
                   time. Highly recommend"
                 </p>
@@ -205,7 +205,7 @@ export default function SignUp() {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="EX:Mahmoud"
+                  placeholder="EX:Hisham"
                   value={formik.values.name}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
@@ -222,7 +222,7 @@ export default function SignUp() {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="EX:Mahmoud.osman@gmail.com"
+                  placeholder="EX:Hisham.Wahba@gmail.com"
                   value={formik.values.email}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
@@ -306,19 +306,19 @@ export default function SignUp() {
                     type="checkbox"
                     name="terms"
                     id="terms"
-                    className="accent-green-600 size-4"
+                    className="accent-primary-600 size-4"
                     value={formik.values.terms}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
                   <label htmlFor="terms">
                     I agree to the{" "}
-                    <Link className="text-green-500 underline" to={`/Terms`}>
+                    <Link className="text-primary-500 underline" to={`/Terms`}>
                       Terms of Service
                     </Link>{" "}
                     and{" "}
                     <Link
-                      className="text-green-500 underline"
+                      className="text-primary-500 underline"
                       to={`/Privacy-Policy`}
                     >
                       Privacy Policy
@@ -331,7 +331,7 @@ export default function SignUp() {
                 )}
               </div>
               <button
-                className="btn flex items-center gap-2 w-full justify-center bg-green-600 hover:bg-green-700 text-white"
+                className="btn flex items-center gap-2 w-full justify-center bg-primary-600 hover:bg-primary-700 text-white"
                 type="submit"
               >
                 <FontAwesomeIcon icon={faUserPlus} />
@@ -340,7 +340,7 @@ export default function SignUp() {
             </form>
             <p className="text-center pt-8 border-t border-gray-300/50">
               Already have an account?{" "}
-              <Link className="text-green-500 underline" to={`/Login`}>
+              <Link className="text-primary-500 underline" to={`/Login`}>
                 Sign In
               </Link>
             </p>

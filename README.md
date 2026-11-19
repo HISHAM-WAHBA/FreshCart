@@ -1,4 +1,4 @@
-# FreshCart | E-Commerce | Store 
+# MartCart | E-Commerce | Store 
 
 ##pachages
 [1] Design [UI] styles >>>>Tailwind
@@ -15,7 +15,7 @@ The app runs with a built-in static catalog by default:
 
 - Products, categories, subcategories and brands: `src/Data/mockData.js`
 - Mock API (auth, cart, wishlist, orders): `src/Data/mockApi.js`
-- Demo login: `demo@freshcart.com` / `Demo@12345`
+- Demo login: `demo@martcart.com` / `Demo@12345`
 - Password reset code: `123456`
 
 Cart, wishlist, orders and users saved through the demo account are stored in `localStorage`, so they persist after refresh.

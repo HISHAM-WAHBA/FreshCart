@@ -67,8 +67,8 @@ export default function ResetPassword() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="bg-white w-full max-w-md rounded-2xl shadow-md p-8 text-center">
         {/* Icon */}
-        <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-green-100 mb-4">
-          <FontAwesomeIcon icon={faKey} className="text-green-600 text-2xl" />
+        <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-primary-100 mb-4">
+          <FontAwesomeIcon icon={faKey} className="text-primary-600 text-2xl" />
         </div>
 
         {/* Title */}
@@ -155,7 +155,7 @@ export default function ResetPassword() {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-green-600 text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition duration-200"
+            className="w-full bg-primary-600 text-white py-2 rounded-lg font-semibold hover:bg-primary-700 transition duration-200"
           >
             Reset Password
           </button>
@@ -166,14 +166,14 @@ export default function ResetPassword() {
           Remember your password?{" "}
           <Link
             to="/Login"
-            className="text-green-600 font-medium hover:underline"
+            className="text-primary-600 font-medium hover:underline"
           >
             Sign In
           </Link>
         </p>
         <p className="text-xs text-gray-400 mt-2">
           Need help?{" "}
-          <a href="#" className="text-green-600 hover:underline">
+          <a href="#" className="text-primary-600 hover:underline">
             Contact Support
           </a>
         </p>

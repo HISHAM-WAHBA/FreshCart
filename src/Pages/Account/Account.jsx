@@ -67,13 +67,13 @@ export default function Account() {
 
   return (
     <>
-      <PageMetaData title="My Account | FreshCart" />
+      <PageMetaData title="My Account | MartCart" />
       <main className="page-enter py-8 md:py-12 min-h-[70vh]">
         <div className="container">
           {/* Profile banner */}
           <div className="relative overflow-hidden rounded-3xl bg-primary-50 p-6 md:p-10 mb-8">
             <div className="absolute -right-16 -top-20 size-64 rounded-full bg-primary-200/60 blur-2xl" />
-            <div className="absolute -bottom-24 left-1/4 size-56 rounded-full bg-emerald-200/50 blur-2xl" />
+            <div className="absolute -bottom-24 left-1/4 size-56 rounded-full bg-primary-200/50 blur-2xl" />
             <div className="relative flex flex-col sm:flex-row items-center gap-5">
               <div className="size-20 rounded-2xl bg-primary-600 text-white flex items-center justify-center text-2xl font-bold shadow-lg shadow-primary-600/30 shrink-0">
                 {initials}
@@ -85,7 +85,7 @@ export default function Account() {
                   <span className="gradient-text">{user?.name || "there"}</span>
                 </h1>
                 <p className="text-sm text-gray-600 mt-1">
-                  {user?.email || "Welcome back to FreshCart"}
+                  {user?.email || "Welcome back to MartCart"}
                 </p>
               </div>
               <button

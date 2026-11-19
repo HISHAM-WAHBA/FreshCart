@@ -75,7 +75,7 @@ export default function VerifyResetCode() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
       <div className="bg-white p-8 rounded-2xl shadow-lg text-center w-full max-w-md">
         {/* Icon */}
-        <div className="text-green-600 text-4xl mb-4">
+        <div className="text-primary-600 text-4xl mb-4">
           <FontAwesomeIcon icon={faShieldHalved} />
         </div>
 
@@ -86,7 +86,7 @@ export default function VerifyResetCode() {
         <p className="text-gray-600 text-sm mb-1">
           We've sent a verification code to your email address
         </p>
-        {email && <p className="text-green-600 font-medium mb-4">{email}</p>}
+        {email && <p className="text-primary-600 font-medium mb-4">{email}</p>}
 
         {/* Form */}
         <form onSubmit={formik.handleSubmit}>
@@ -119,7 +119,7 @@ export default function VerifyResetCode() {
                     inputRefs.current[i - 1]?.focus();
                   }
                 }}
-                className="w-12 h-12 border border-gray-300 rounded-md text-center text-xl focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-12 h-12 border border-gray-300 rounded-md text-center text-xl focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
             ))}
           </div>
@@ -127,7 +127,7 @@ export default function VerifyResetCode() {
           {/* Timer */}
           <p className="text-sm text-gray-500 mb-4">
             Code expires in{" "}
-            <span className="text-green-600 font-medium">
+            <span className="text-primary-600 font-medium">
               {formatTime(secondsLeft)}
             </span>
           </p>
@@ -138,7 +138,7 @@ export default function VerifyResetCode() {
             className={`w-full py-2 rounded-md font-semibold ${
               secondsLeft === 0
                 ? "bg-gray-300 text-white cursor-not-allowed"
-                : "bg-green-600 hover:bg-green-700 text-white"
+                : "bg-primary-600 hover:bg-primary-700 text-white"
             }`}
             disabled={secondsLeft === 0}
           >
@@ -173,7 +173,7 @@ export default function VerifyResetCode() {
             className={`text-sm font-medium mb-2 ${
               secondsLeft > 0
                 ? "text-gray-400 cursor-not-allowed"
-                : "text-green-600 hover:underline"
+                : "text-primary-600 hover:underline"
             }`}
           >
             Resend Code
@@ -182,7 +182,7 @@ export default function VerifyResetCode() {
           <div>
             <Link
               to="/login"
-              className="text-green-600 hover:underline text-sm font-medium"
+              className="text-primary-600 hover:underline text-sm font-medium"
             >
               Back to Sign In
             </Link>
@@ -193,7 +193,7 @@ export default function VerifyResetCode() {
       {/* Footer */}
       <div className="text-sm text-gray-500 mt-4">
         Need help?{" "}
-        <a href="#" className="text-green-600 hover:underline font-medium">
+        <a href="#" className="text-primary-600 hover:underline font-medium">
           Contact Support
         </a>
       </div>

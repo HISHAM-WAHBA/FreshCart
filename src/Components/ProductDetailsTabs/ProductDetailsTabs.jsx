@@ -18,7 +18,7 @@ export default function ProductDetailsTabs({ productDetails }) {
 
   const specs = [
     ["Category", productDetails.category?.name || "—"],
-    ["Brand", productDetails.brand?.name || "FreshCart Select"],
+    ["Brand", productDetails.brand?.name || "MartCart Select"],
     ["Available stock", `${productDetails.quantity ?? 0} units`],
     ["Product ID", productDetails._id || productDetails.id],
     ["Rating", `${productDetails.ratingsAverage ?? 0} / 5`],
@@ -56,7 +56,7 @@ export default function ProductDetailsTabs({ productDetails }) {
                 <h2 className="text-xl font-bold mb-3">About this product</h2>
                 <p className="text-gray-600 leading-8">
                   {productDetails.description ||
-                    "Carefully selected for freshness and quality. Add it to your cart and enjoy doorstep delivery with FreshCart."}
+                    "Carefully selected for freshness and quality. Add it to your cart and enjoy doorstep delivery with MartCart."}
                 </p>
               </div>
               <div className="rounded-2xl bg-primary-50 p-5 space-y-3">

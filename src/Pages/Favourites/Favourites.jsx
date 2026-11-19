@@ -16,7 +16,7 @@ export default function Favourites() {
   return (
     <>
       <PageMetaData
-        title="My Favourites | FreshCart"
+        title="My Favourites | MartCart"
         description="All the products you love, saved in one place."
       />
 
@@ -25,7 +25,7 @@ export default function Favourites() {
           {/* Hero */}
           <div className="relative overflow-hidden rounded-3xl bg-primary-50 p-6 md:p-10 mb-8">
             <div className="absolute -right-10 -top-16 size-56 rounded-full bg-primary-200/50 blur-2xl" />
-            <div className="absolute -bottom-20 left-1/3 size-44 rounded-full bg-emerald-200/50 blur-2xl" />
+            <div className="absolute -bottom-20 left-1/3 size-44 rounded-full bg-primary-200/50 blur-2xl" />
             <div className="relative flex flex-col md:flex-row md:items-center md:justify-between gap-4">
               <div>
                 <span className="eyebrow">Saved for later</span>

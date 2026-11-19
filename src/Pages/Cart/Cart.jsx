@@ -29,9 +29,9 @@ export default function Cart() {
     <>
       <PageMetaData
         title="Shopping Cart"
-        description="Discover fresh deals and best-selling products on FreshCart – your ultimate online grocery destination."
-        keywords="FreshCart, grocery, deals, fresh food, online shopping, offers"
-        author="Mahmoud Osman"
+        description="Discover fresh deals and best-selling products on MartCart – your ultimate online grocery destination."
+        keywords="MartCart, grocery, deals, fresh food, online shopping, offers"
+        author="Hisham Wahba"
       />
     
       <section>

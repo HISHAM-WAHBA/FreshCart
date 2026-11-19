@@ -53,7 +53,7 @@ export const subcategories = [
 ];
 
 export const brands = [
-  { _id: "b1", name: "FreshCart", image: img("photo-1542838132-92c53300491e") },
+  { _id: "b1", name: "MartCart", image: img("photo-1542838132-92c53300491e") },
   { _id: "b2", name: "GreenFarm", image: img("photo-1540420773420-3366772f4999") },
   { _id: "b3", name: "DailyFresh", image: img("photo-1550583724-b2692b85b150") },
   { _id: "b4", name: "BakeryHouse", image: img("photo-1509440159596-0249088772ff") },
@@ -87,7 +87,7 @@ const makeProduct = ({
     title,
     description:
       description ||
-      `${title} hand-picked by FreshCart for maximum freshness and flavour. Delivered straight to your door with care.`,
+      `${title} hand-picked by MartCart for maximum freshness and flavour. Delivered straight to your door with care.`,
     quantity: stock,
     price,
     priceAfterDiscount: discount || undefined,
@@ -147,6 +147,6 @@ export const products = [
 
 export const demoUser = {
   name: "Demo User",
-  email: "demo@freshcart.com",
+  email: "demo@martcart.com",
   password: "Demo@12345",
 };

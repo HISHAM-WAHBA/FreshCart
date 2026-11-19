@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <PageMetaData
-        title="Home Page | FreshCart"
-        description="Discover fresh deals and best-selling products on FreshCart – your ultimate online grocery destination."
-        keywords="FreshCart, grocery, deals, fresh food, online shopping, offers"
-        author="Mahmoud Osman"
+        title="Home Page | MartCart"
+        description="Discover fresh deals and best-selling products on MartCart – your ultimate online grocery destination."
+        keywords="MartCart, grocery, deals, fresh food, online shopping, offers"
+        author="Hisham Wahba"
       />
 
       <HomeSlider />

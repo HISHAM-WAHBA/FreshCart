@@ -31,7 +31,7 @@ export default function CategoryProducts() {
   return (
     <>
       <PageMetaData
-        title={`${activeCategory?.name || "Category"} | FreshCart`}
+        title={`${activeCategory?.name || "Category"} | MartCart`}
         description={`Shop all products in ${activeCategory?.name || "this category"}.`}
       />
 

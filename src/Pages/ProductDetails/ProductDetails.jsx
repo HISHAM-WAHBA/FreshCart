@@ -38,7 +38,7 @@ export function ProductDetails() {
   return (
     <>
       <PageMetaData
-        title={`${productDetails.title} | FreshCart`}
+        title={`${productDetails.title} | MartCart`}
         description={productDetails.description}
       />
       <div className="page-enter">

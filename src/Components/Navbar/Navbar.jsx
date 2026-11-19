@@ -24,7 +24,7 @@ import {
   faUser,
 } from "@fortawesome/free-regular-svg-icons";
 import { Link, NavLink, useLocation, useNavigate } from "react-router";
-import Logo from "../../assets/imgs/freshcart-logo.svg";
+import Logo from "../../assets/imgs/martcart-logo.svg";
 import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../Context/Auth.context";
 import { CartContext } from "../../Context/Cart.context";
@@ -167,7 +167,7 @@ export default function Navbar() {
               </li>
               <li className="flex items-center justify-center gap-2">
                 <FontAwesomeIcon icon={faEnvelope} />
-                <a href="mailto:support@freshcart.com">support@freshcart.com</a>
+                <a href="mailto:support@martcart.com">support@martcart.com</a>
               </li>
               <li
                 className={`flex items-center justify-center gap-2 ${
@@ -207,8 +207,8 @@ export default function Navbar() {
           {/* Main Navbar */}
           <nav className="flex items-center justify-between py-5 gap-2">
             <div className="flex items-center">
-              <Link to="/" aria-label="FreshCart home">
-                <img src={Logo} className="w-40" alt="freshCart logo" />
+              <Link to="/" aria-label="MartCart home">
+                <img src={Logo} className="w-40" alt="martCart logo" />
               </Link>
             </div>
 
@@ -456,8 +456,8 @@ export default function Navbar() {
             className="fixed inset-y-0 left-0 z-[61] w-[88vw] max-w-sm overflow-y-auto overscroll-contain bg-white p-5 shadow-2xl animate-slide-in"
           >
             <div className="flex items-center justify-between border-b border-gray-200 pb-4">
-              <Link to="/" onClick={closeMenu} aria-label="FreshCart home">
-                <img src={Logo} alt="FreshCart logo" className="w-36" />
+              <Link to="/" onClick={closeMenu} aria-label="MartCart home">
+                <img src={Logo} alt="MartCart logo" className="w-36" />
               </Link>
               <button
                 type="button"

@@ -18,8 +18,8 @@ export default function RecentlyAdded() {
   return (
     <>
       <PageMetaData
-        title="Recently Added | FreshCart"
-        description="The newest arrivals in the FreshCart store."
+        title="Recently Added | MartCart"
+        description="The newest arrivals in the MartCart store."
       />
 
       <main className="page-enter py-8 md:py-12 min-h-[70vh]">

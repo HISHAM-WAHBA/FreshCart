@@ -77,7 +77,7 @@ export default function VerifyEmail() {
 
   return (
     <>
-      <PageMetaData title="Verify Email | FreshCart" />
+      <PageMetaData title="Verify Email | MartCart" />
       <main className="page-enter min-h-[75vh] flex items-center justify-center bg-gray-50 px-4 py-12">
         <div className="w-full max-w-lg">
           <div className="relative overflow-hidden rounded-3xl bg-white shadow-xl border border-gray-100 p-6 sm:p-10">

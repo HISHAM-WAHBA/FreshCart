@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../../assets/imgs/freshcart-logo.svg";
+import Logo from "../../assets/imgs/martcart-logo.svg";
 import miniLogo from "../../assets/imgs/mini-logo.png";
 import {
   faFacebookF,
@@ -42,15 +42,15 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-gray-950 text-gray-300 pt-14 pb-6">
       <div className="absolute -top-32 right-1/4 size-72 rounded-full bg-primary-500/10 blur-3xl" />
-      <div className="absolute -bottom-40 left-0 size-80 rounded-full bg-emerald-500/10 blur-3xl" />
+      <div className="absolute -bottom-40 left-0 size-80 rounded-full bg-primary-500/10 blur-3xl" />
 
       <div className="container relative">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5 pb-10">
           {/* Brand */}
           <div className="lg:col-span-2 space-y-4">
-            <img src={Logo} alt="FreshCart logo" className="w-40 brightness-0 invert" />
+            <img src={Logo} alt="MartCart logo" className="w-40 brightness-0 invert" />
             <p className="text-sm leading-7 text-gray-400 max-w-sm">
-              FreshCart is a versatile e-commerce platform offering a wide range
+              MartCart is a versatile e-commerce platform offering a wide range
               of products — from fresh groceries to electronics — with a smooth,
               delightful shopping experience.
             </p>
@@ -136,12 +136,19 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-5 border-t border-white/10">
           <p className="text-sm text-gray-400 text-center sm:text-start">
             &copy; {new Date().getFullYear()}{" "}
-            <strong className="text-white">Mahmoud Osman</strong> FreshCart. All
-            rights reserved.
+            <a
+              href="https://hishamwahba.zya.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-white hover:text-primary-300 transition-colors"
+            >
+              Hisham Wahba
+            </a>{" "}
+            FreshCart. All rights reserved.
           </p>
           <img
             src={miniLogo}
-            alt="FreshCart"
+            alt="MartCart"
             className="w-9 rounded-lg animate-float"
           />
         </div>

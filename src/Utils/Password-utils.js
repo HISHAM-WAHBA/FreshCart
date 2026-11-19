@@ -27,7 +27,7 @@ export function checkPasswordStrength(password) {
     case 4:
       passwordDetails.text = "Good";
       passwordDetails.width = "w-4/6";
-      passwordDetails.background = "bg-lime-500";
+      passwordDetails.background = "bg-primary-500";
       break;
     case 5:
       passwordDetails.text = "Strong";
@@ -37,7 +37,7 @@ export function checkPasswordStrength(password) {
     case 6:
       passwordDetails.text = "Very Strong";
       passwordDetails.width = "w-full";
-      passwordDetails.background = "bg-lime-600";
+      passwordDetails.background = "bg-primary-600";
       break;
   }
 

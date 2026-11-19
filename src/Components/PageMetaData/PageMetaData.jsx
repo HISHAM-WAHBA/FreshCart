@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function PageMetaData({
-  title = "FreshCart",
-  description = "Discover fresh deals and best-selling products on FreshCart",
-  keywords = "FreshCart, grocery, deals, fresh food, online shopping, offers",
-  author = "Mahmoud Osman",
+  title = "MartCart",
+  description = "Discover fresh deals and best-selling products on MartCart",
+  keywords = "MartCart, grocery, deals, fresh food, online shopping, offers",
+  author = "Hisham Wahba",
 }) {
   return (
     <>

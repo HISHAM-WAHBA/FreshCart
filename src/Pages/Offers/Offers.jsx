@@ -36,14 +36,14 @@ export default function Offers() {
   return (
     <>
       <PageMetaData
-        title="Offers & Deals | FreshCart"
-        description="Grab the best limited-time offers on FreshCart."
+        title="Offers & Deals | MartCart"
+        description="Grab the best limited-time offers on MartCart."
       />
 
       <main className="page-enter py-8 md:py-12">
         <div className="container">
           {/* Banner */}
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-700 via-primary-600 to-emerald-500 text-white p-7 md:p-12 mb-10">
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-700 via-primary-600 to-primary-500 text-white p-7 md:p-12 mb-10">
             <div className="absolute -right-20 -top-24 size-80 rounded-full bg-white/10 blur-2xl" />
             <div className="absolute -bottom-24 right-1/3 size-56 rounded-full bg-white/10 blur-2xl" />
             <div className="relative flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">

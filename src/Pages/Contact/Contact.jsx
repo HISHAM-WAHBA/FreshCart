@@ -21,7 +21,7 @@ export default function Contact() {
 
   const channels = [
     { icon: faPhone, label: "Call us", value: "+1 (800) 123-4567" },
-    { icon: faEnvelope, label: "Email us", value: "support@freshcart.com" },
+    { icon: faEnvelope, label: "Email us", value: "support@martcart.com" },
     { icon: faLocationDot, label: "Visit us", value: "123 Fresh Street, Green City" },
     { icon: faHeadset, label: "Live chat", value: "Available 24 / 7" },
   ];
@@ -47,7 +47,7 @@ export default function Contact() {
                   id="name"
                   required
                   className="form-control mt-1"
-                  placeholder="Mahmoud"
+                  placeholder="Hisham"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                 />

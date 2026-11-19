@@ -6,13 +6,13 @@ export default function About() {
     <>
       <StaticPage
         eyebrow="Our story"
-        title="About FreshCart"
-        lead="FreshCart is a modern grocery experience built around one simple idea: fresh food, fair prices, and delivery that just works."
+        title="About MartCart"
+        lead="MartCart is a modern grocery experience built around one simple idea: fresh food, fair prices, and delivery that just works."
         sections={[
           {
             heading: "Who we are",
             paragraphs: [
-              "We started FreshCart to make everyday shopping feel effortless. From farm-fresh produce to everyday essentials, we bring carefully selected products straight to your doorstep.",
+              "We started MartCart to make everyday shopping feel effortless. From farm-fresh produce to everyday essentials, we bring carefully selected products straight to your doorstep.",
               "Our team works with trusted suppliers and local farms so that every item you receive meets the quality you'd pick yourself in store.",
             ],
           },

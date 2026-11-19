@@ -57,7 +57,7 @@ export default function SearchProducts() {
   return (
     <>
       <PageMetaData
-        title="Search Products | FreshCart"
+        title="Search Products | MartCart"
         description="Find exactly what you need across thousands of fresh products."
       />
 

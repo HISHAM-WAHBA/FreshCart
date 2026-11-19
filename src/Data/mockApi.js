@@ -7,8 +7,8 @@ import {
 } from "./mockData";
 
 const KEYS = {
-  users: "freshcart_mock_users",
-  resetCode: "freshcart_mock_reset_code",
+  users: "martcart_mock_users",
+  resetCode: "martcart_mock_reset_code",
 };
 
 const clone = (value) => JSON.parse(JSON.stringify(value));
@@ -84,7 +84,7 @@ function findProduct(id) {
 
 // ---------- Cart ----------
 function cartKey(token) {
-  return `freshcart_mock_cart_${token}`;
+  return `martcart_mock_cart_${token}`;
 }
 
 function emptyCart() {
@@ -117,7 +117,7 @@ function saveCart(token, cart) {
 
 // ---------- Wishlist ----------
 function wishlistKey(token) {
-  return `freshcart_mock_wishlist_${token}`;
+  return `martcart_mock_wishlist_${token}`;
 }
 
 function emptyWishlist() {
@@ -141,7 +141,7 @@ function saveWishlist(token, wishlist) {
 
 // ---------- Orders ----------
 function ordersKey(token) {
-  return `freshcart_mock_orders_${token}`;
+  return `martcart_mock_orders_${token}`;
 }
 
 function getOrders(token) {
@@ -203,7 +203,7 @@ function handleAuth(config, path, body) {
     };
     write(KEYS.users, [...users, user]);
     const token = `mock.${btoa(user.email)}.demo`;
-    write("freshcart_mock_pending_user", user);
+    write("martcart_mock_pending_user", user);
     return ok({ token, user: { name: user.name, email: user.email } }, 201);
   }
 

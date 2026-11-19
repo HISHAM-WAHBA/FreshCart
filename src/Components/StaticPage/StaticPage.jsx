@@ -6,19 +6,19 @@ import PageMetaData from "../PageMetaData/PageMetaData";
 
 export default function StaticPage({
   title,
-  eyebrow = "FreshCart",
+  eyebrow = "MartCart",
   lead,
   sections = [],
   children,
 }) {
   return (
     <>
-      <PageMetaData title={`${title} | FreshCart`} description={lead} />
+      <PageMetaData title={`${title} | MartCart`} description={lead} />
       <main className="page-enter">
         {/* Hero */}
         <section className="relative overflow-hidden bg-primary-50/70 py-12 md:py-20">
           <div className="absolute -right-20 -top-24 size-72 rounded-full bg-primary-200/60 blur-3xl" />
-          <div className="absolute -bottom-24 left-1/4 size-64 rounded-full bg-emerald-200/50 blur-3xl" />
+          <div className="absolute -bottom-24 left-1/4 size-64 rounded-full bg-primary-200/50 blur-3xl" />
           <div className="container relative">
             <nav className="flex items-center gap-2 text-xs text-gray-500 mb-5">
               <Link to="/" className="hover:text-primary-600">
