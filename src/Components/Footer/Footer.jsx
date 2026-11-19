@@ -8,7 +8,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import useCategories from "../../Hooks/useCategories";
 
 const quickLinks = [
@@ -149,18 +148,10 @@ export default function Footer() {
           <img
             src={miniLogo}
             alt="MartCart"
-            className="w-9 rounded-lg animate-float"
+            className="w-9 rounded-lg"
           />
         </div>
       </div>
-
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        aria-label="Back to top"
-        className="fixed bottom-6 right-6 z-50 size-11 rounded-full bg-primary-600 hover:bg-primary-500 text-white shadow-lg shadow-primary-900/30 flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
-      >
-        <FontAwesomeIcon icon={faArrowUp} />
-      </button>
     </footer>
   );
 }

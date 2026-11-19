@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-50: #fbf4f5;
-  --color-primary-100: #f5e3e6;
-  --color-primary-200: #e9c3ca;
-  --color-primary-300: #d798a5;
-  --color-primary-400: #c16a7b;
-  --color-primary-500: #a5485b;
-  --color-primary-600: #722F37;
-  --color-primary-700: #5f2730;
-  --color-primary-800: #4a1f27;
-  --color-primary-900: #33151b;
+  --color-primary-50: #fdf2f2;
+  --color-primary-100: #fbe0e0;
+  --color-primary-200: #f5bcbc;
+  --color-primary-300: #ec8b8b;
+  --color-primary-400: #e05252;
+  --color-primary-500: #c22a2a;
+  --color-primary-600: #8B0000;
+  --color-primary-700: #730000;
+  --color-primary-800: #590000;
+  --color-primary-900: #3f0000;
   --font-poppins: "Poppins", sans-serif;
   --container-sm: 540px;
   --container-md: 720px;
@@ -20,7 +20,6 @@
 
   --animate-slide-in: slide-in 400ms cubic-bezier(0.22, 1, 0.36, 1);
   --animate-fade-up: fade-up 500ms ease-out both;
-  --animate-float: float 6s ease-in-out infinite;
   --animate-shimmer: shimmer 1.5s linear infinite;
 
   @keyframes slide-in {
@@ -43,15 +42,6 @@
       opacity: 1;
     }
   }
-  @keyframes float {
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
   @keyframes shimmer {
     from {
       background-position: 200% 0;
@@ -63,16 +53,16 @@
 }
 
 :root {
-  --color-primary-50: #fbf4f5;
-  --color-primary-100: #f5e3e6;
-  --color-primary-200: #e9c3ca;
-  --color-primary-300: #d798a5;
-  --color-primary-400: #c16a7b;
-  --color-primary-500: #a5485b;
-  --color-primary-600: #722F37;
-  --color-primary-700: #5f2730;
-  --color-primary-800: #4a1f27;
-  --color-primary-900: #33151b;
+  --color-primary-50: #fdf2f2;
+  --color-primary-100: #fbe0e0;
+  --color-primary-200: #f5bcbc;
+  --color-primary-300: #ec8b8b;
+  --color-primary-400: #e05252;
+  --color-primary-500: #c22a2a;
+  --color-primary-600: #8B0000;
+  --color-primary-700: #730000;
+  --color-primary-800: #590000;
+  --color-primary-900: #3f0000;
 }
 
 @layer base {
